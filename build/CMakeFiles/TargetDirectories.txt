@@ -1,0 +1,3 @@
+/home/username/cpp/PSI-Experiment/build/CMakeFiles/psi_app.dir
+/home/username/cpp/PSI-Experiment/build/CMakeFiles/edit_cache.dir
+/home/username/cpp/PSI-Experiment/build/CMakeFiles/rebuild_cache.dir
