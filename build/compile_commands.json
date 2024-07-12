@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/username/cpp/PSI-Experiment/build",
+  "command": "/usr/bin/c++  -I/home/username/cpp/PSI-Experiment/include -I/home/username/.local/include  -Wall -Wfatal-errors -march=native -O0 -g -ggdb -std=c++17 -mavx -maes -msse2 -msse3 -mssse3 -msse4.1 -mpclmul -mavx2 -std=gnu++17 -o CMakeFiles/psi_app.dir/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /home/username/cpp/PSI-Experiment/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/home/username/cpp/PSI-Experiment/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+},
+{
+  "directory": "/home/username/cpp/PSI-Experiment/build",
+  "command": "/usr/bin/c++  -I/home/username/cpp/PSI-Experiment/include -I/home/username/.local/include  -Wall -Wfatal-errors -march=native -O0 -g -ggdb -std=c++17 -mavx -maes -msse2 -msse3 -mssse3 -msse4.1 -mpclmul -mavx2 -std=gnu++17 -o CMakeFiles/psi_app.dir/src/main.cpp.o -c /home/username/cpp/PSI-Experiment/src/main.cpp",
+  "file": "/home/username/cpp/PSI-Experiment/src/main.cpp"
+},
+{
+  "directory": "/home/username/cpp/PSI-Experiment/build",
+  "command": "/usr/bin/c++  -I/home/username/cpp/PSI-Experiment/include -I/home/username/.local/include  -Wall -Wfatal-errors -march=native -O0 -g -ggdb -std=c++17 -mavx -maes -msse2 -msse3 -mssse3 -msse4.1 -mpclmul -mavx2 -std=gnu++17 -o CMakeFiles/psi_app.dir/src/perf.cpp.o -c /home/username/cpp/PSI-Experiment/src/perf.cpp",
+  "file": "/home/username/cpp/PSI-Experiment/src/perf.cpp"
+}
+]
