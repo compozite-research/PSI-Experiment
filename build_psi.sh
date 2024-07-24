@@ -7,7 +7,9 @@ build_volepsi() {
         git clone https://github.com/Visa-Research/volepsi.git
     fi
     cd volepsi/thirdparty
-    git clone https://github.com/sparsehash/sparsehash-c11.git
+    if [ ! -d "sparsehash-c11" ]; then
+        git clone https://github.com/sparsehash/sparsehash-c11.git
+    fi
     cd ..
     python3 build.py -DVOLE_PSI_ENABLE_BOOST=ON -DVOLE_PSI_ENABLE_CPSI=ON
     python3 build.py --install=$HOME/.local -DVOLE_PSI_ENABLE_BOOST=ON -DVOLE_PSI_ENABLE_CPSI=ON
